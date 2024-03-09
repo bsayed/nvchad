@@ -1,12 +1,12 @@
 ## Installation
 For linux/macos:
 ```
-git clone https://github.com/NvChad/starter ~/.config/nvim && git clone git@github.com:bsayed/nvchad.git ~/.config/nvim/lua/custom && nvim
+git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && git clone git@github.com:bsayed/nvchad.git ~/.config/nvim/lua/custom && nvim
 ```
 
 For windows:
 ```
-git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && git clone https://github.com/bsayed/nvchad $HOME\AppData\Local\nvim\lua\custom --depth 1 && nvim
+git clone -b v2.0 https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && git clone https://github.com/bsayed/nvchad $HOME\AppData\Local\nvim\lua\custom --depth 1 && nvim
 ```
 
 # Example_config
